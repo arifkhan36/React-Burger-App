@@ -65,6 +65,7 @@ removeIngredientHandler =(type) => {
               <BuildControls
                 ingredientAdded = {this.addIngredientHandler}
                 ingredientRemoved = {this.removeIngredientHandler}
+                price = {this.state.totalPrice}
 
                  />
             </Aux>
