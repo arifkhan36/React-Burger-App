@@ -22,10 +22,11 @@ const buildControls =(props) => (
           label={ctrl.label}
           added = { () => props.ingredientAdded (ctrl.type)}
           removed = {() => props.ingredientRemoved(ctrl.type)}
+
           />
 
        ))}
-
+         <button className={classes.OrderButton}>Order Now</button>
 
     </div>
 
